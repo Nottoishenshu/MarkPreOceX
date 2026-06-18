@@ -76,32 +76,32 @@ Handles rvent. Rendering.
 # Challenges
 Building a Markdown previewer was complex. I had to create a parser using regular expressions. Supporting formatting styles requires careful ordering of parsing operations.
 
-- Security
+- Security:
 I had to learn about Cross-Site Scripting (XSS) attacks and sanitize user input.
 
-- Code Blocks
+- Code Blocks:
 Handling code blocks was difficult. Inline code needed to be protected from formatting rules.
 
-- Scroll Synchronization
+- Scroll Synchronization:
 Synchronizing the editor scroll position with the preview pane was a challenge.
 
-- Browser APIs
+- Browser APIs:
 Features such as Local Storage and Clipboard access behave differently.
 
-- Debugging
+- Debugging:
 Debugging syntax errors, in JavaScript was a part of the project.
 
-- What I Learned
+- What I Learned:
 This project taught me about parsing and text processing. I gained an understanding of how browsers process and render content.
 
-- JavaScript Fundamentals
+- JavaScript Fundamentals:
 I improved my understanding of JavaScript fundamentals.
 
-- Project Organization
+- Project Organization:
 The project reinforced the importance of design.
 
-- Debugging Skills
+- Debugging Skills:
 The project strengthened my debugging skills.
 
-- Software Development
+- Software Development:
 The project showed that software development is rarely a path.
