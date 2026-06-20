@@ -77,91 +77,75 @@ Handles rvent. Rendering.
 
 ## Editor
 
-Type Markdown          : Live preview updates automatically
-
-Scroll Editor          : Preview scrolls in sync
-
-Select Text            : Use toolbar formatting buttons
-
-Refresh Page           : Previous work restored automatically
+| Action | Description |
+|---------|-------------|
+| Type Markdown | Live preview updates automatically |
+| Scroll Editor | Preview scrolls in sync |
+| Select Text | Use toolbar formatting buttons |
+| Refresh Page | Previous work restored automatically |
 
 ## Toolbar Buttons
 
-Bold                   : Wrap selected text with **bold**
-
-Italic                 : Wrap selected text with *italic*
-
-Heading                : Insert Markdown heading
-
-Link                   : Insert markdown link template
-
-Image                  : Insert markdown image template
-
-Code Block             : Insert fenced code block
+| Button | Description |
+|---------|-------------|
+| Bold | Wrap selected text with `**bold**` |
+| Italic | Wrap selected text with `*italic*` |
+| Heading | Insert Markdown heading |
+| Link | Insert markdown link template |
+| Image | Insert markdown image template |
+| Code Block | Insert fenced code block |
 
 ## Preview Panel
 
-Live Render            : Converts Markdown to HTML
-
-Syntax Highlighting    : Highlights code keywords
-
-Code Blocks            : Displays formatted code
-
-Links                  : Render clickable links
-
-Images                 : Render embedded images
+| Feature | Description |
+|---------|-------------|
+| Live Render | Converts Markdown to HTML |
+| Syntax Highlighting | Highlights code keywords |
+| Code Blocks | Displays formatted code |
+| Links | Render clickable links |
+| Images | Render embedded images |
 
 ## Storage
 
-Auto Save              : Save editor content to Local Storage
-
-Auto Load              : Restore saved content on startup
-
-Clear Editor           : Remove editor content and saved data
+| Feature | Description |
+|---------|-------------|
+| Auto Save | Save editor content to Local Storage |
+| Auto Load | Restore saved content on startup |
+| Clear Editor | Remove editor content and saved data |
 
 ## Export Tools
 
-Copy HTML              : Copy rendered HTML to clipboard
-
-Download Markdown      : Save current document as .md file
+| Action | Description |
+|---------|-------------|
+| Copy HTML | Copy rendered HTML to clipboard |
+| Download Markdown | Save current document as `.md` file |
 
 ## Markdown Support
 
-# Heading              : Heading level 1
-
-## Heading             : Heading level 2
-
-### Heading            : Heading level 3
-
-**Text**               : Bold text
-
-*Text*                 : Italic text
-
-***Text***             : Bold + Italic
-
-`code`                 : Inline code
-
-`code`             : Code block
-
-> Quote                : Blockquote
-
-* Item                 : Unordered list
-
-1. Item                : Ordered list
-
-[Text](URL)            : Hyperlink
-
-![Alt](ImageURL)       : Image
-
----                    : Horizontal rule
+| Syntax | Description |
+|---------|-------------|
+| `# Heading` | Heading level 1 |
+| `## Heading` | Heading level 2 |
+| `### Heading` | Heading level 3 |
+| `**Text**` | Bold text |
+| `*Text*` | Italic text |
+| `***Text***` | Bold + Italic |
+| `` `code` `` | Inline code |
+| ` ```code``` ` | Code block |
+| `> Quote` | Blockquote |
+| `- Item` | Unordered list |
+| `1. Item` | Ordered list |
+| `[Text](URL)` | Hyperlink |
+| `![Alt](ImageURL)` | Image |
+| `---` | Horizontal rule |
 
 ## Performance Features
 
-Debounce Rendering     : Reduce unnecessary re-renders
-
-Efficient Updates      : Render only when needed
-
-Scroll Sync            : Maintain editor/preview alignment
+| Feature | Description |
+|---------|-------------|
+| Debounce Rendering | Reduce unnecessary re-renders |
+| Efficient Updates | Render only when needed |
+| Scroll Sync | Maintain editor/preview alignment |
 
 
 # Challenges
